@@ -4,10 +4,10 @@
         <header class="header">
             <div class="page-brand">
                 <a class="link" href="index.html">
-                    <span class="brand">Zstc
-                        <span class="brand-tip">Pemba</span>
+                    <span class="brand">ICMS
+                        <span class="brand-tip text-warning">APP</span>
                     </span>
-                    <span class="brand-mini">ZP</span>
+                    <span class="brand-mini">CA</span>
                 </a>
             </div>
             <div class="flexbox flex-1">

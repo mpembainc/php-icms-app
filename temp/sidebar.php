@@ -5,42 +5,30 @@
                 <img src="./assets/img/admin-avatar.png" width="45px" />
             </div>
             <div class="admin-info">
-                <div class="font-strong">James Brown</div><small>Administrator</small></div>
+                <div class="font-strong">Mpemba Inc</div><small>Administrator</small></div>
         </div>
         <ul class="side-menu metismenu">
             <li>
-                <a class="active" href="index.html"><i class="sidebar-item-icon fa fa-th-large"></i>
+                <a class="active" href="index.php"><i class="sidebar-item-icon fa fa-th-large"></i>
                     <span class="nav-label">Dashboard</span>
                 </a>
             </li>
-            <li class="heading">FEATURES</li>
+            <li class="heading">MAIN MENU</li>
             <li>
                 <a href="javascript:;"><i class="sidebar-item-icon fa fa-table"></i>
-                    <span class="nav-label">Tables</span><i class="fa fa-angle-left arrow"></i></a>
+                    <span class="nav-label">Payroll</span><i class="fa fa-angle-left arrow"></i></a>
                 <ul class="nav-2-level collapse">
                     <li>
-                        <a href="table_basic.html">Basic Tables</a>
+                        <a href="blank.php">Employees</a>
                     </li>
                     <li>
-                        <a href="datatables.html">Datatables</a>
+                        <a href="blank.php">Allowances</a>
+                    </li>
+                    <li>
+                        <a href="blank.php">Deductions</a>
                     </li>
                 </ul>
             </li>
-            <li>
-                <a href="javascript:;"><i class="sidebar-item-icon fa fa-map"></i>
-                    <span class="nav-label">Maps</span><i class="fa fa-angle-left arrow"></i></a>
-                <ul class="nav-2-level collapse">
-                    <li>
-                        <a href="maps_vector.html">Vector maps</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="icons.html"><i class="sidebar-item-icon fa fa-smile-o"></i>
-                    <span class="nav-label">Icons</span>
-                </a>
-            </li>
-            <li class="heading">PAGES</li>
             <li>
                <a href="users.php">
                   <i class="sidebar-item-icon fa fa-users"></i>
