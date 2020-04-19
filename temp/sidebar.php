@@ -19,7 +19,7 @@
                     <span class="nav-label">Payroll</span><i class="fa fa-angle-left arrow"></i></a>
                 <ul class="nav-2-level collapse">
                     <li>
-                        <a href="blank.php">Employees</a>
+                        <a href="employees.php">Employees</a>
                     </li>
                     <li>
                         <a href="blank.php">Allowances</a>

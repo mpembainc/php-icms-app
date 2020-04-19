@@ -40,7 +40,7 @@
                                 <i class="fa fa-cog"></i>Settings
                             </a>
                             <li class="dropdown-divider"></li>
-                            <a class="dropdown-item" href="login.html">
+                            <a class="dropdown-item" href="login.php">
                                 <i class="fa fa-power-off"></i>Logout
                             </a>
                         </ul>
