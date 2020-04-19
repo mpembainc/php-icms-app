@@ -11,14 +11,16 @@
             <div class="col-lg-12">
                 <div class="ibox">
                     <div class="ibox-body">
-                        <div class="flexbox mb-4">
-                            <div>
-                                <h3 class="m-0">Employees</h3>
-                            </div>
-                            <div class="d-inline-flex">
-                                
-                            </div>
-                        </div>
+                        <!-- form -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ibox">
+                    <div class="ibox-body">
+                        <!-- table -->
                     </div>
                 </div>
             </div>
