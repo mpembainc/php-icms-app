@@ -11,6 +11,7 @@
             <div class="col-sm-12">
                 <div class="ibox">
                     <div class="ibox-body">
+<<<<<<< HEAD
                          <h3>Employees</h3><br>
                         <div class="flexbox mb-4">
                         <div class="col-sm-12">
@@ -111,6 +112,18 @@
                                </tbody>
                            </table>
                         </div>
+=======
+                        <!-- form -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ibox">
+                    <div class="ibox-body">
+                        <!-- table -->
+>>>>>>> 70cc9b574f9aa9ee0fcdc42b111c7472b07b3f0c
                     </div>
                 </div>
             </div>
