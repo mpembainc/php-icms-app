@@ -7,11 +7,11 @@
 <div class="content-wrapper">
     <!-- START PAGE CONTENT-->
     <div class="page-content fade-in-up">
+    <form >
           <div class="row">
             <div class="col-sm-12">
                 <div class="ibox">
                     <div class="ibox-body">
-<<<<<<< HEAD
                          <h3>Employees</h3><br>
                         <div class="flexbox mb-4">
                         <div class="col-sm-12">
@@ -46,9 +46,9 @@
                         </div>
                           <div class="col-sm-4">
                              <div class="form-group">
-                                 <label>Employee Status:</label>
+                                 <label>Employee Department:</label>
                                  <select class="form-control" name="gender">
-                                     <option value="">Select Employee Status</option>
+                                     <option value="">---Select Employee Department---</option>
                                      <option value="account">Account</option>
                                      <option value="bank">Banking</option>
                                      <option value="it">It</option>
@@ -56,7 +56,16 @@
                                  </select>
                              </div>
                         </div>
-                        </div>  
+                         <div class="col-sm-4">
+                             <div class="form-group">
+                                 <label>Basic Salary:</label>
+                                <input type="text" name="salary" class="form-control">
+                             </div>
+                        </div>
+                        </div> 
+                        <div style="float:right;">
+                            <button class="btn btn-success" name="">Save</button> 
+                        </div>
                         </div> 
 
                         </div>
@@ -68,11 +77,13 @@
             <div>
             </div>
         </div>
+    </form>
           <div class="row">
             <div class="col-sm-12">
                 <div class="ibox">
                     <div class="ibox-body">
                         <div class="flexbox mb-4">
+
                            <table class="table table-striped table-border">
                                <tr>
                                    <thead style="background-color:black;color:#ffffff; ">
@@ -81,7 +92,8 @@
                                        <td>Address</td>
                                        <td>Gender</td>
                                        <td>Phone Number</td>
-                                       <td>Employee Status</td>
+                                       <td>Employee Department</td>
+                                       <td>Action</td>
                                    </thead>
                                </tr>
                                <tbody>
@@ -92,6 +104,7 @@
                                         <td>Male</td>
                                         <td>0674303210</td>
                                         <td>It</td>
+                                         <td>Edit | Delete</td>
                                    </tr>
                                      <tr>
                                         <td>2</td>
@@ -100,6 +113,7 @@
                                         <td>Male</td>
                                         <td>0998776</td>
                                         <td>It</td>
+                                        <td>Edit | Delete</td>
                                    </tr>
                                       <tr>
                                         <td>3</td>
@@ -108,22 +122,12 @@
                                         <td>Male</td>
                                         <td>099338776</td>
                                         <td>Banking</td>
+                                        <td>Edit | Delete</td>
                                    </tr>
                                </tbody>
                            </table>
                         </div>
-=======
                         <!-- form -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="ibox">
-                    <div class="ibox-body">
-                        <!-- table -->
->>>>>>> 70cc9b574f9aa9ee0fcdc42b111c7472b07b3f0c
                     </div>
                 </div>
             </div>
@@ -131,4 +135,5 @@
     </div>
 <!-- END PAGE CONTENT-->
 <!-- APP FOOTER -->
+<?php include 'temp/modals.php'; ?>
 <?php include 'temp/footer.php' ?>
